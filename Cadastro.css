@@ -1,0 +1,41 @@
+#btn{
+    background-color: seagreen;
+    height: 50px;
+    width: 150px;
+    border-radius: 30px 1px 1px 30px;
+
+}
+#btn a{
+    font-size: 30px;
+}
+
+
+#cad{
+    border: 2px solid white;
+    width: 200px;
+    padding: 30px;
+    box-shadow: 1px 2px 3px black;
+    background-color:lightsteelblue;
+    text-align: center;
+}
+
+#criar{
+    border: 0px;
+    width: 170px;
+    height: 20px;
+    background-color: white;
+    color: black;
+}
+
+img#imagem{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    width: 40%;
+    height: 50%;
+    border: 1px solid black;
+    box-shadow: 1px 2px 3px black;
+   
+
+  
+}

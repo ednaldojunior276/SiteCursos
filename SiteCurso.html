@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <meta charset = "UTF-8">
+    <link rel = "stylesheet" type = "text/css" href = "SiteCurso.css">
+    <title>SiteCurso</title>
+</head>
+<body>
+    <div id = "container">
+<header>
+    <div id = "div01">
+        <span id = "couse">COURSERA</span>
+        <select name  = "select01" id = "sel01">
+            <option selected><a href="">Explore</a></option>
+            <option><a href="">Cursos</a></option>
+            <option><a href="">Quem somos</a></option>
+            <option><a href="">Escola</a></option>
+        </select>
+        <input type = "email" name = "email" id = "email" placeholder = "Digite o seu E-mail"/>
+        <input type = "password" name = "senha" id = "senha" placeholder = "Digite a sua senha"/>
+        <input id = "btn" type = "button" value  = "Sign up" onclick = "Entrar()" >
+        <button><a href= "file:///C:/Users/ednal/Desktop/ProjetoWeb/Cadastro.html">Cadastre-se</a></button>
+
+    </div>
+    <div id = "div02">
+        <h1>Computer Science</h1>
+        <nav id = "menu01">
+            <ul>
+                <li onmousemove = "mudafoto('pizza/sft.jpg')" onmouseout = "mudafoto('pizza/soft.jpg')"><a href="">Software Development</a></li>
+                <li onmousemove = "mudafoto('pizza/mobile.jpg')" onmouseout = "mudafoto('pizza/soft.jpg')"><a href="">Mobile And Web Development</a></li>
+                <li onmousemove = "mudafoto('pizza/algo.jpg')" onmouseout = "mudafoto('pizza/soft.jpg')"><a href="">Algorithms</a></li>
+                <li onmousemove = "mudafoto('pizza/sec.jpg')" onmouseout = "mudafoto('pizza/soft.jpg')"><a href="">Computer Security And Networks</a></li>
+                <li onmousemove = "mudafoto('pizza/desgner.png')" onmouseout = "mudafoto('pizza/soft.jpg')"><a href="">Design And Producion</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<figure>
+    <img id = "im" src = "pizza/soft.jpg">
+</figure>
+<section>
+    <div id = "div03">
+        <select name = "select02" id = "sel02">
+        <option selected><a href="">Skills</a></option>
+        <option><a href="">Practed</a></option>
+        <option><a href="">Development</a></option>
+        </select>
+    
+        <select name = "select02" id = "sel02">
+        <option selected><a href="">Job Title</a></option>
+        <option><a href="">Basic for site</option>
+        <option><a href="">Basica for program</option>
+        </select>
+    
+        <select name = "select02" id = "sel02">
+        <option selected><a href="">Level</a></option>
+        <option><a href="">Básic</a></option>
+        <option><a href="">Intermediate</a></option>
+        <option><a href="">Avanced</a></option>
+        </select>
+ 
+        <select name = "select02" id = "sel02">
+        <option selected><a href="">Linguage</a></option>
+        <option><a href="">Python</a></option>
+        <option><a href="">Java</a></option>
+        <option><a href="">C</a></option>
+        <option><a href="">c++</a></option>
+        <option><a href="">Algorithms</a></option>
+        </select>
+    </div>
+    <div id = "div04">
+        <ul id = "album-foto">
+            <li id = "foto01"><span>Deep Learning </span></li>
+            <li id = "foto02"><span>Python for Everybody  </span></li>
+            <li id = "foto03"><span>Google IT support</span></li>
+            <li id = "foto04"><span>Appliied Data Science with Python </span></li>
+            <li id = "foto05"><span>Appliied Machine with Python </span></li>
+            <li id = "foto06"><span>Appliied automation with Javascript</span></li>
+        </ul>
+    </div>
+</section>
+<footer>
+    <div id = "div05">
+        <h2>COURSERA</h2>
+        <P id = "p"><a href="">Saiba mais</a></P>
+    </div>
+</footer>
+
+
+<script src = "SiteCurso.js"> </script>
+</div>
+</body>   
+</html>
